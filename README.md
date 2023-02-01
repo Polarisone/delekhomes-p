@@ -7,9 +7,11 @@ Node current version  node -v check version npm installed npm init to start new 
 
 git clone git@github.com:Polarisone/delekhomes-p
 
+npm i (client) to install a specific client needed for the framework npm i mocha npm i chai
+
 automation framework based on node.js: playwright
 
-npm i (client) to install a specific client needed for the framework npm i mocha npm i chai
+npm init playwright@latest OR VSCode extension in Extensions tab
 
 How to run all tests
 
