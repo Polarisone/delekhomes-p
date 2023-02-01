@@ -3,7 +3,7 @@ Project
 
 Requirements
 
-Node current version  node -v check version npm installed npm init to start new application Setup
+Node current version  node -v check version npm installed. npm init to start new application Setup
 
 git clone git@github.com:Polarisone/delekhomes-p
 
