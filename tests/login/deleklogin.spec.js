@@ -11,7 +11,7 @@ test.beforeEach(async function  ({ page }){
 
 
  test.describe('Login Tests', () => {
-    test.only('Should be able to login using the credentials', async  ({page})=> {
+    test('Should be able to login using the credentials', async  ({page})=> {
     
 //click login button
      await page.locator('(//div[@class="MuiBox-root css-12z0wuy"])[3]').click();

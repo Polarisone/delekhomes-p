@@ -8,7 +8,7 @@ const { test, expect } = require('@playwright/test');
 
 
  test.describe('HomePage Tests', () => {
-      test.only('Should see homes for sale', async  ({page})=> {
+      test('Should see homes for sale', async  ({page})=> {
 
         //Search Homes for Sale
         await page.locator('(//label[text()="Search"]/following::input)[1]').click();

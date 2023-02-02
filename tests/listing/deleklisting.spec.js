@@ -37,8 +37,9 @@ test.beforeEach(async function   ({ page }){
          await expect (page.locator('(//div[@class="MuiCardContent-root css-lmipfk"])[5]')).toBeVisible();
          await expect (page.locator('(//div[@class="MuiCardContent-root css-lmipfk"])[6]')).toBeVisible();
       });
+      
       test.describe('Listing Tests', () => {
-        test.only('Should open listing upon clicking on More Info', async  ({page})=> {
+        test('Should open listing upon clicking on More Info', async  ({page})=> {
            
             await page.locator('button.MuiButtonBase-root.MuiButton-root').click();
         
